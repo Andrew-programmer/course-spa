@@ -1,0 +1,16 @@
+.authors-list{
+    padding: 0 20px;
+    height: 220px;
+    overflow-y: auto;
+}
+.authors-list-container{
+    flex-wrap: wrap;
+    align-items: center;
+}
+.add-author-li{
+    width: 100%;
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}

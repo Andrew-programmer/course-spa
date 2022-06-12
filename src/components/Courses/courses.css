@@ -1,0 +1,24 @@
+@import "./components/CourseCard/course-card.css";
+@import "./components/SearchBar/search-bar.css";
+
+
+.main-section {
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.search-block{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.course-button{
+    opacity: .2;
+    transition: .1s linear;
+}
+
+.course-button:hover{
+    opacity: .7;
+    background-color: transparent;
+}

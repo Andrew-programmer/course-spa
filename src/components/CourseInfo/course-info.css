@@ -1,0 +1,40 @@
+.course-info-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.course-card-info-text{
+    width: 520px;
+    margin-right: 10rem;
+    word-break: break-all;
+}
+
+.course-card-info-list{
+    margin: 0;
+}
+
+.course-card-info{
+    display: flex;
+    justify-content: center;
+}
+
+.course-info-section .course-card-info-punkt.author-punkt{
+    height: max-content;
+}
+
+.course-info-section .punkt-info.author-punkt{
+    display: block;
+    white-space: pre-line;
+}
+
+.course-info-section .course-card-info-punkt{
+    width: initial;
+}

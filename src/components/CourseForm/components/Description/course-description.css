@@ -1,0 +1,12 @@
+.crate-course-description{
+    width: 99.7%;
+    resize: none;
+    border: none;
+    background-color: #262323;
+    color: white;
+}
+
+.crate-course-description:focus{
+    outline: none;
+    background-color: #2a2727;
+}

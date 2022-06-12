@@ -1,0 +1,18 @@
+.course-card-info{
+    text-align: left;
+    width: 31rem;
+}
+.course-card-info-list{
+    list-style-type: none;
+    padding: 0;
+}
+.course-card-info-punkt{
+    height: 1.9rem;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 250px;
+    text-overflow: ellipsis;
+}
+.punkt-title{
+    font-weight: bolder;
+}

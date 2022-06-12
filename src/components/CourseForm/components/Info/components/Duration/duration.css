@@ -1,0 +1,13 @@
+.duration-block{
+    justify-content: space-evenly;
+}
+.duration-section-header{
+    text-align: center;
+}
+.current-duration{
+    font-size: 1.3rem;
+    margin-top: 15px;
+}
+.time{
+    font-size: 1.6rem;
+}

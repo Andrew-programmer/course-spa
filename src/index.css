@@ -1,0 +1,53 @@
+@import "./components/common/Button/button.css";
+@import "./components/Header/header.css";
+@import "./components/Courses/courses.css";
+@import "components/CourseForm/CourseForm.css";
+@import "./components/Registration/registration.css";
+@import "./components/CourseInfo/course-info.css";
+
+@import "./components/scrollbar.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html{
+  font-size: 1rem;
+}
+#root {
+  padding: 0.5rem;
+  color: white;
+}
+
+html, #root{
+  background-color: #1e1b1b;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+a{
+  text-decoration: none;
+  color: gray;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+
+.main-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-bar {
+  padding: 5px;
+}
+.back-button:hover{
+  color: black;
+}

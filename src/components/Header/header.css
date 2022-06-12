@@ -1,0 +1,17 @@
+@import "./components/Logo/logo.css";
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #303030;
+    padding: 0.5rem 1rem;
+}
+
+.log-block{
+    position: relative;
+}
+.log-name{
+    color: gray;
+}

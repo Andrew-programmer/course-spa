@@ -1,0 +1,51 @@
+@import "../CourseCardDescription/course-card-description.css";
+@import "../CourseCardInfo/course-card-info.css";
+
+.show-course-button{
+    padding: 0.8rem 3rem;
+}
+.show-course-button:hover{
+    background-color: #2a2727;
+}
+
+.course-card-block {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 1rem 0rem;
+    justify-content: space-between;
+    padding: 0.4rem 1rem 0.9rem;
+    border-top: 1px dotted #3e3e3e;
+    align-items: flex-start;
+}
+
+.course-card-block:first-child{
+    border-top: none;
+}
+
+.course-card-info-container{
+    width: 26rem;
+    height: 10.4rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.course-card-description-text {
+    height: 80px;
+    overflow: hidden;
+    opacity: .2;
+    word-break: break-all;
+}
+
+.course-operations-block{
+    display: flex;
+}
+
+.course-operation{
+    padding: 0;
+    width: 3rem;
+    height: 100%;
+}

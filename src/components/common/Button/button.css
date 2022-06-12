@@ -1,0 +1,18 @@
+.log-button {
+    color: white;
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 0.4rem 1.3rem;
+    margin-left: 2rem;
+    transition: background-color 0.2s ease;
+}
+
+.log-button:active{
+    color: white;
+    background-color: inherit;
+}
+
+.log-button:hover{
+    cursor: pointer;
+    background-color: gray;
+}

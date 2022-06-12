@@ -1,0 +1,18 @@
+.search-bar {
+    width: 25rem;
+    height: 2rem;
+    background: #262323;
+    border: none;
+    color: white;
+    transition: .1s linear;
+}
+
+.search-bar-block{
+    display: flex;
+    align-items: flex-end;
+}
+
+.search-bar:focus{
+    outline: none;
+    background-color: #2a2727;
+}
